@@ -1,0 +1,23 @@
+{
+  "name": "@amaralc/utils",
+  "version": "1.0.0",
+  "description": "Collection of custom utility functions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amaralc/utils.git"
+  },
+  "keywords": [
+    "utils",
+    "key"
+  ],
+  "author": "Amaral, C.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amaralc/utils/issues"
+  },
+  "homepage": "https://github.com/amaralc/utils#readme"
+}
