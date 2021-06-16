@@ -30,7 +30,8 @@ const generateKey = ({
 
   const shuffledArray = shuffle(arrayString);
   const usedArray = shuffledArray.filter((_, index) => index < length)
-  const key = usedArray.join('')
+  const safeArray = atob(usedArray.filter(item => item !== `=`))
+  const key = safeArray.join('')
 
   return key
 }

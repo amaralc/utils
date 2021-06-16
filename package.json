@@ -1,6 +1,6 @@
 {
   "name": "@amaralc/utils",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Collection of custom utility functions",
   "main": "index.js",
   "scripts": {
